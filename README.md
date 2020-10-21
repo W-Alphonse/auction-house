@@ -1,2 +1,5 @@
 # auction-house
-Auction House Rest Application
+<h2>Auction House Rest Application</h2>
+1 - It is a multi modules Java web application. It is about house auction place.
+2 - The main business objects model are : House, Auction and Bid
+![Test Image 7](https://github.com/tograh/testrepository/master/3DTest.png 246)
