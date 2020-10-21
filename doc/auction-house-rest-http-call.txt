@@ -1,0 +1,25 @@
+
+=======
+House :
+=======
+POST   : http://localhost:8080/auction-house-webapp/rest/auction/create
+GET    : http://localhost:8080/auction-house-webapp/rest/auction/list/{house}
+DELETE : http://localhost:8080/auction-house-webapp/rest/house/create/{house}
+
+
+========
+Auction:
+========
+POST   : http://localhost:8080/auction-house-webapp/rest/auction/create  
+GET    : http://localhost:8080/auction-house-webapp/rest/auction/list/{house}
+GET    : http://localhost:8080/auction-house-webapp/rest/auction/list-status/{AuctionStatus}
+DELETE : http://localhost:8080/auction-house-webapp/rest/auction/delete/{auction}
+
+
+=====
+Bid :
+=====
+POST : http://localhost:8080/auction-house-webapp/rest/bid/create
+GET  : http://localhost:8080/auction-house-webapp/rest/bid/list/{user}
+GET  : http://localhost:8080/auction-house-webapp/rest/bid/list-winner
+
