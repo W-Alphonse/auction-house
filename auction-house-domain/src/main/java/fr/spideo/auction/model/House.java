@@ -43,9 +43,6 @@ public class House {
     return Objects.hash(name);
   }
 
-//  public String toString() {
-//    return ToStringBuilder.reflectionToString(this);
-//  }
   public String toString() {
     return String.format("[name: %s]", StringUtils.defaultString(name));
   }

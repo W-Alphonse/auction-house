@@ -22,11 +22,6 @@ public class SpideoOffsetDateTimeSerializer extends StdSerializer<OffsetDateTime
 
   public void serialize(OffsetDateTime value, JsonGenerator gen, SerializerProvider serializers) throws IOException {
     // Date pattern to format as String: 2018-07-14T14:31:30+0530
-//    String fmtDate = String.format("%04d-%02d-%02dT%02d:%02d:%02d+%02d%02d",
-//                                  value.getYear(), value.getMonthValue(), value.getDayOfMonth(),
-//                                  value.getHour(), value.getMinute(), value.getSecond(),
-//                                  value.getOffset().toString());
-//    dateTimeFormatter.format(value);
     gen.writeObject(dateTimeFormatter.format(value));
   }
 
